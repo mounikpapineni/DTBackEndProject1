@@ -2,8 +2,9 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -11,19 +12,23 @@
 </head>
 <body>
 <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">HOME</a>
-    </div>
+  <div class="container-fluid ">
+    <div class="navbar-header navbar"></div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">BASKET</a></li>
+<li><a class="navbar-brand" href="#">HOME</a>
+<a class="navbar-brand" href="#">BASKET</a></li>
+    </ul>
+    <div class="navbar-header navbar-right"></div>
+    <ul class="navbar navbar-right">
+<li><a class="navbar-brand" href="#" >LOGIN</a>
+    <a class="navbar-brand" href="#">RIGISTER</a></li>
     </ul>
   </div>
 </nav>
-  <body>
-<div class="container"></head>
+ <body>
+<div class="container ">
 <h3>NIIT E-COMMERCE PROJECT</h3>
-<P>Welcome to home of all things NIIT</P>
+<h4>Welcome to home of all things NIIT</h4>
 <div class="container">
 <p class="text-primary"> currently your baket contains 0 truely awsome products</p>
 </div>
@@ -36,25 +41,24 @@
 </tr>
 </thead>
 <tr>
-<td>Deadspace 3 limited version</td>
-<td>10</td>
+<td>LOVE LIVING</td>
+<td>999</td>
 </tr>
 <tr>
-<td>Hitman Absolution Professional Edition</td>
-<td>15</td>
+<td>A NEW FRIEND</td>
+<td>1500</td>
 </tr>
 <tr>
-<td>Operation Flashpoint Red River</td>
-<td>21</td>
+<td>BEST BUDDY</td>
+<td>1111</td>
 </tr>
 <tr>
-<td>A Long To Freedom</td>
-<td>14</td>
+<td>SUNMOON</td>
+<td>599</td>
 </tr>
-</div>
-
 </table>
 <div class="panel-footer" align="left"><font style="color:#111">@NIIT E-COMMERCE PROJECT case study 2017 </font></div>
+</div>
 </div>
 </body> 
 </html>
